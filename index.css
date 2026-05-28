@@ -6,6 +6,7 @@
 body{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 .container{
     margin-top: 180px;
@@ -111,7 +112,7 @@ ul a{
 .main{
     display: flex;
     gap:30px;
-    margin-right: 40px;
+    margin-right:0px;
     padding: 20px 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
