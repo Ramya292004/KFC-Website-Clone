@@ -447,8 +447,8 @@ ul a{
 }
 
 
-/* ── MOBILE (≤ 480px) ── */
 @media (max-width: 480px) {
+
   .menu {
     padding: 12px 16px;
     flex-wrap: wrap;
