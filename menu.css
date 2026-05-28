@@ -605,8 +605,7 @@ ul a{
 }
 
 
-/* ── MOBILE (≤ 480px) ── */
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
   .menu {
     padding: 10px 14px;
     flex-wrap: wrap;
@@ -677,28 +676,11 @@ ul a{
     margin-top: 0;
     font-size: 14px;
   }
+  .sidebar {
+    display: none;
+  }
   .container1 {
     flex-direction: column;
-  }
-  .sidebar {
-    position: static;
-    width: 100%;
-    margin-left: 0;
-    padding: 10px 16px;
-    display: flex;
-    overflow-x: auto;
-    gap: 8px;
-    background: #f9f9f9;
-    border-bottom: 1px solid #ddd;
-    white-space: nowrap;
-  }
-  .sidebar a {
-    display: inline-block;
-    padding: 8px 14px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    font-size: 12px;
-    white-space: nowrap;
   }
   .content {
     width: 100%;
@@ -714,9 +696,7 @@ ul a{
     margin-left: 0;
     margin-bottom: 0;
   }
-  .order h3 {
-    font-size: 15px;
-  }
+  .order h3 { font-size: 15px; }
   .min {
     font-size: 13px;
     margin-top: 14px;
@@ -737,9 +717,7 @@ ul a{
     max-width: 100%;
     margin-top: 16px;
   }
-  .search-box input {
-    width: 100%;
-  }
+  .search-box input { width: 100%; }
   .line {
     width: 100%;
     margin-left: 0;
@@ -755,12 +733,8 @@ ul a{
     width: 100%;
     padding-left: 0;
   }
-  .card-lines {
-    width: 100%;
-  }
-  .card-right h3 {
-    font-size: 16px;
-  }
+  .card-lines { width: 100%; }
+  .card-right h3 { font-size: 16px; }
   .add-btn {
     position: static;
     display: block;
@@ -777,31 +751,19 @@ ul a{
     margin-left: 0;
   }
   .card-container {
-    grid-template-columns: 1fr;
-    gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
     margin-top: 16px;
   }
-  .card1,
-  .card2 {
+  .card1, .card2 {
     width: 100%;
     padding: 14px;
   }
-  .card1 h3 {
-    font-size: 14px;
-  }
-  .card2 h3 {
-    font-size: 15px;
-  }
-  .card-line,
-  .card-line1 {
-    width: 100%;
-  }
-  .desc1, .desc2 {
-    font-size: 12px;
-  }
-  .add-btn1,
-  .add-btn2,
-  .add-btn3 {
+  .card1 h3 { font-size: 14px; }
+  .card2 h3 { font-size: 15px; }
+  .card-line, .card-line1 { width: 100%; }
+  .desc1, .desc2 { font-size: 12px; }
+  .add-btn1, .add-btn2, .add-btn3 {
     position: static;
     display: block;
     margin-top: 14px;
@@ -811,7 +773,6 @@ ul a{
     padding-bottom: 6px;
   }
   .footer {
-    /* width: 100%; */
     flex-direction: column;
     height: auto;
     padding: 28px 16px;
@@ -843,7 +804,8 @@ ul a{
     margin-right: 0;
     height: 44px;
   }
-}
+ }
+
 
 
 
